@@ -1,14 +1,15 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "Challenge": [
+    { "part": 1, "flag": "API" },
+    { "part": 2, "flag": "Challenge" },
+    { "part": 3, "flag": "Fake" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "Token": [
+    { "id": 1, "value": "toto&pourtoi"},
+    { "id": 2, "value": "tatayoyo" }
   ],
-  "profile": {
-    "name": "typicode"
+  "hint": {
+    "name": "CTFd tags",
+    "format":"endpoint 'Challenge' part[2]-part[3]-part[1]_Token.id[2]+Token.id[1]"
   }
 }
