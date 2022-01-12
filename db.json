@@ -4,5 +4,7 @@
     { "id": 2, "key": "Nope" },
     { "id": 3, "key": "=" }
   ],
-  "encrypt_msg":""
+  "encrypt_msg": {
+    "msg": "test"
+  }
 }
