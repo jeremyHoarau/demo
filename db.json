@@ -1,15 +1,8 @@
 {
-  "Challenge": [
-    { "part": 1, "flag": "API" },
-    { "part": 2, "flag": "Challenge" },
-    { "part": 3, "flag": "Fake" }
+  "decryptage_keys": [
+    { "id": 1, "key": "see further" },
+    { "id": 2, "key": "Nope" },
+    { "id": 3, "key": "Ze7uGrpSr6LCc8WWy92LD5A0HFq_CaDjtedlycutSZo=" }
   ],
-  "Token": [
-    { "id": 1, "value": "toto&pourtoi"},
-    { "id": 2, "value": "tatayoyo" }
-  ],
-  "hint": {
-    "name": "CTFd tags",
-    "format":"endpoint 'Challenge' part[2]-part[3]-part[1]_Token.id[2]+Token.id[1]"
-  }
+  "encrypt_msg":"b'gAAAAABh31MEtSIzHtkOnyUHRnOYV7rUlo3l63L1ovVfu6_fa-XkbvWHwGWyQJ3ArJuyWCyS-81Ibz-ek-rcuFxN6H8yHIEkCXlicOCn9RhQ7EMXfNMbpF9TfWwn1GC55h6Kh1vhaib2'"
 }
