@@ -2,9 +2,13 @@
   "decryptage_keys": [
     { "id": 1, "key": "see further" },
     { "id": 2, "key": "Nope" },
-    { "id": 3, "key": "=" }
+    { "id": 3, "key": "p3NrLzKgZaMKuc3Rr3i-qbPWBnb5dzFsmAPlvevlURE=" }
   ],
   "encrypt_msg": {
-    "msg": "test"
+    "info":"This is the flag that will be necessary to validate this challenge you have to put together the different part pre-msg+msg+date+post-msg, Be carefull the msg have to be decrypted",
+    "date":"12-01-2022",
+    "pre-msg":"Flag{",
+    "msg": "gAAAAABh31hax3TyW7a6bxA_xXHHc3UQ3ufSGLI2xYZh3iOtZc3ch_Eksuyw2NL3Edl1XHDFyfHuyeKhfHM33BH1pGPf7meaFVhBwuJSaeCceK9Eht_UNBM=",
+    "post-msg":"}"
   }
 }
